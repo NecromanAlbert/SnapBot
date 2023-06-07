@@ -19,7 +19,7 @@ for filename in os.listdir(folder_path):
         image_path = os.path.join(folder_path, filename)
         card_image = cv2.imread(folder_path+filename, 0)
         kp_card, des_card = sift.detectAndCompute(card_image, None)
-        card_dict[filename[:-4]] = [kp_card, des_card]
+        card_dict[filename[:-4]] = [kp_card, des_card] # kp is keypoint 2D vector, des is descriptor 3D vector for feature
 
 
 

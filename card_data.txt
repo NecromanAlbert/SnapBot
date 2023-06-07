@@ -1,0 +1,12 @@
+Kitty: 1,0
+Iceman: 1,2
+Yondu: 1,2
+Scorpion: 2,2
+Ironheart: 3,0
+Wolfsbane: 3,1
+Maximus: 3,7
+Wong: 4,2
+Whitetiger: 5,1
+Spiderwoman: 5,8
+Odin: 6,8
+Chavez: 6,9

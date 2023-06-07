@@ -16,18 +16,20 @@ class CardGame:
 
     # Method for the game logic
     def game_logic(self):
-        dynamic_hand = update(self)
-        for card in self.card_tracking:
-            if card[3] == True:
-                play(card[0])
-                print(card[0])
+        dynamic_hand, current_energy = update(self)
+        for card in dynamic_hand:
+            if card[1][0] <= current energy:
+                #adjus my hyperparameter
+            if (0=0)#这里写卡权重的调整 如果当回合可以打多张卡
+                #play(card[0])
+                #print(card[0])
                     
     def update(self):
         current_energy = self.energy
         current_turn = self.turn
-        dynamic_hand = {}
-    	for 
-    return dynamic_hand
+    	for card in self.card_info:
+            if card.getkey
+    return dynamic_hand, current_energy
 
     def play(name):
         

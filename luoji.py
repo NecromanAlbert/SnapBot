@@ -16,16 +16,21 @@ class CardGame:
 
     # Method for the game logic
     def game_logic(self):
-        update(self)
+        dynamic_hand = update(self)
         for card in self.card_tracking:
-            if card[2] == True & card[3] == True:
+            if card[3] == True:
                 play(card[0])
-            print(card[0])
-        
+                print(card[0])
+                    
     def update(self):
         current_energy = self.energy
+        current_turn = self.turn
+        dynamic_hand = {}
+    	for 
+    return dynamic_hand
 
-    def play(self):
+    def play(name):
+        
 
     def read_card_data(self, card_data_file):
         # Read card data from a text file
